@@ -28,39 +28,41 @@ const Portfolio = () => {
       </header>
 
       <main className="max-w-4xl mx-auto px-4 py-8">
-        {/* Skills Section */}
+        {/* Updated Skills Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Technical Skills</h2>
+          <h2 className="text-2xl font-semibold mb-4">Technical Expertise</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
-              <h3 className="font-medium mb-2">Languages</h3>
+              <h3 className="font-medium mb-2">Architecture & Systems</h3>
               <div className="space-y-1">
-                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded mr-2">Python</span>
-                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded mr-2">JavaScript</span>
-                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded">C++</span>
+                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded mr-2">Distributed Systems</span>
+                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded mr-2">Microservices</span>
+                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded mr-2">Event-Driven</span>
+                <span className="inline-block bg-blue-100 text-blue-800 px-2 py-1 rounded">Serverless</span>
               </div>
             </div>
             <div>
-              <h3 className="font-medium mb-2">Tools & Technologies</h3>
+              <h3 className="font-medium mb-2">Infrastructure & DevOps</h3>
               <div className="space-y-1">
                 <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded mr-2">Docker</span>
+                <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded mr-2">Kubernetes</span>
                 <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded mr-2">AWS</span>
-                <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded mr-2">Azure</span>
-                <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded">Kubernetes</span>
+                <span className="inline-block bg-green-100 text-green-800 px-2 py-1 rounded">Azure</span>
               </div>
             </div>
             <div>
-              <h3 className="font-medium mb-2">ML/AI</h3>
+              <h3 className="font-medium mb-2">Data & AI Systems</h3>
               <div className="space-y-1">
+                <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded mr-2">Redis</span>
+                <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded mr-2">PostgreSQL</span>
                 <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded mr-2">PyTorch</span>
-                <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded mr-2">TensorFlow</span>
                 <span className="inline-block bg-purple-100 text-purple-800 px-2 py-1 rounded">LLMs</span>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Experience Section */}
+        {/* Updated Experience Section - focusing on architectural achievements */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-6">Professional Experience</h2>
           
@@ -71,7 +73,7 @@ const Portfolio = () => {
                 <span className="text-gray-600">Feb 2024 - Present</span>
               </div>
               <p className="text-gray-600 mb-2">Ashling Partners, Chicago</p>
-              <p className="mb-2">Led the development of an LLM-powered call center agent that reduced interaction time from 12 to 4 minutes through intelligent API orchestration and custom routing logic.</p>
+              <p className="mb-2">Architected a serverless distributed system powering an LLM call center agent that orchestrates 19 API endpoints through function calling, processing a 216M row data lake. Implemented comprehensive observability and custom routing logic, reducing interaction time by 67%.</p>
             </div>
 
             <div>
@@ -81,27 +83,33 @@ const Portfolio = () => {
               </div>
               <p className="text-gray-600 mb-2">Ashling Partners, Chicago</p>
               <ul className="list-disc list-inside space-y-2 text-gray-800">
-                <li>Developed an AI-powered inbox processing 250,000+ RFPs annually</li>
-                <li>Built intelligent search engine for 3.5M SKUs using Cognitive Search</li>
-                <li>Led M&A contract automation pipeline using OCR and RAG</li>
-                <li>Designed real-estate forecasting app using LSTM and KNN</li>
+                <li>Designed distributed event-driven architecture for processing 250,000+ annual RFPs using Azure Functions and Docker</li>
+                <li>Engineered scalable search engine with Redis caching and custom embedding models for 3.5M SKUs</li>
+                <li>Architected containerized ML pipeline for M&A contract processing using OCR and RAG</li>
+                <li>Developed horizontally scalable real-estate analytics platform with LSTM forecasting</li>
               </ul>
             </div>
           </div>
         </section>
 
-        {/* Projects Section */}
+        {/* Updated Projects Section */}
         <section>
           <h2 className="text-2xl font-semibold mb-6">Featured Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-medium mb-2">Load Link</h3>
-              <p className="text-gray-600 mb-4">Real-time logistics platform with native mobile app</p>
+              <p className="text-gray-600 mb-4">Distributed real-time logistics platform with event-driven architecture</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Python</span>
-                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Docker</span>
-                <span className="text-sm bg-gray-100 px-2 py-1 rounded">React Native</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Kubernetes</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Redis</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">WebSockets</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">PostgreSQL</span>
               </div>
+              <ul className="text-sm text-gray-600 mb-4 list-disc list-inside">
+                <li>Real-time event streaming architecture</li>
+                <li>Bidirectional WebSocket communication</li>
+                <li>Distributed pub/sub system</li>
+              </ul>
               <a href="https://github.com/j0sephsasson" className="text-blue-600 hover:text-blue-800 flex items-center gap-1">
                 <ExternalLink size={16} />
                 View Project
@@ -109,20 +117,22 @@ const Portfolio = () => {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-medium mb-2">Local RAG from Scratch</h3>
-              <p className="text-gray-600 mb-4">Entirely local RAG system using raw Python</p>
+              <h3 className="text-xl font-medium mb-2">SuperDocs-AI</h3>
+              <p className="text-gray-600 mb-4">Modular, containerized document understanding pipeline</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Python</span>
                 <span className="text-sm bg-gray-100 px-2 py-1 rounded">Docker</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">Redis</span>
+                <span className="text-sm bg-gray-100 px-2 py-1 rounded">AWS</span>
               </div>
+              <ul className="text-sm text-gray-600 mb-4 list-disc list-inside">
+                <li>Production-grade microservices architecture</li>
+                <li>Deployed at multiple Fortune 500 companies</li>
+                <li>Scalable document processing pipeline</li>
+              </ul>
               <div className="flex items-center gap-4">
                 <a href="https://github.com/j0sephsasson" className="text-blue-600 hover:text-blue-800 flex items-center gap-1">
                   <Github size={16} />
-                  38 Stars
-                </a>
-                <a href="https://sassonjoe66.medium.com/" className="text-blue-600 hover:text-blue-800 flex items-center gap-1">
-                  <FileText size={16} />
-                  Read Article
+                  View Code
                 </a>
               </div>
             </div>
