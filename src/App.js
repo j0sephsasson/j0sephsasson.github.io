@@ -45,7 +45,7 @@ const Portfolio = () => {
       <section className="mb-12">
         <h2 className="text-lg font-semibold mb-4">Current Interests</h2>
         <ul className="space-y-3">
-          <li>• Exploring efficient RAG architectures for enterprise-scale deployment</li>
+          <li>• Contributing to and creating open-source projects</li>
           <li>• Building distributed systems for real-time ML inference</li>
           <li>• Optimizing large-scale data processing pipelines</li>
         </ul>
