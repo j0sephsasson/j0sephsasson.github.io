@@ -33,11 +33,11 @@ const Portfolio = () => {
       <section className="mb-12">
         <h2 className="text-lg font-semibold mb-4">Notable Work</h2>
         <ul className="space-y-3">
-          <li>• Architected distributed LLM system processing 216M records for enterprise call centers</li>
-          <li>• Built event-driven architecture handling 250k+ annual RFPs using Azure Functions</li>
-          <li>• Developed open-source RAG implementation (38 stars, 30k reads)</li>
-          <li>• Created real-time logistics platform with WebSocket-based event streaming</li>
-          <li>• Implemented neural network framework from scratch using NumPy</li>
+          <li>• Architected serverless distributed system where LLM agent dynamically orchestrates 19 different API endpoints through function calling, each interacting with specialized views of a 216M row data lake</li>
+          <li>• Built event-driven architecture handling 250k+ annual RFPs using Azure Functions and LLMs</li>
+          <li>• Developed open-source RAG implementation (38 stars, 30k reads) <a href="https://medium.com/towards-data-science/local-rag-from-scratch-3afc6d3dea08" className="text-blue-600 hover:underline">[Link]</a></li>
+          <li>• Created real-time logistics platform with WebSocket-based event streaming <a href="https://loadlink-devtest-platform-001.livelyforest-e29e2b6d.eastus2.azurecontainerapps.io" className="text-blue-600 hover:underline">[Link]</a></li>
+          <li>• Implemented neural network framework from scratch using NumPy <a href="https://medium.com/towards-data-science/coding-a-neural-network-from-scratch-in-numpy-31f04e4d605" className="text-blue-600 hover:underline">[Link]</a></li>
         </ul>
       </section>
 
