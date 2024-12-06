@@ -25,7 +25,7 @@ const Portfolio = () => {
       {/* About */}
       <section className="mb-12">
         <p className="text-lg">
-          I build distributed AI systems and production-grade MLOps infrastructure. Currently focused on architecting scalable LLM applications and real-time ML systems.
+          I build distributed AI systems and production-grade MLOps infrastructure. Currently focused on developing scalable LLM applications and real-time ML systems.
         </p>
       </section>
 
@@ -33,7 +33,7 @@ const Portfolio = () => {
       <section className="mb-12">
         <h2 className="text-lg font-semibold mb-4">Notable Work</h2>
         <ul className="space-y-3">
-          <li>• Architected serverless distributed system where LLM agent dynamically orchestrates 19 different API endpoints through function calling, each interacting with specialized views of a 216M row data lake</li>
+          <li>• Architected serverless distributed LLM agent system that dynamically orchestrates 19 different API endpoints through function calling, each interacting with specialized views of a 216M row data lake</li>
           <li>• Built event-driven architecture handling 250k+ annual RFPs using Azure Functions and LLMs</li>
           <li>• Developed open-source RAG implementation (38 stars, 30k reads) <a href="https://medium.com/towards-data-science/local-rag-from-scratch-3afc6d3dea08" className="text-blue-600 hover:underline">[Link]</a></li>
           <li>• Created real-time logistics platform with WebSocket-based event streaming <a href="https://loadlink-devtest-platform-001.livelyforest-e29e2b6d.eastus2.azurecontainerapps.io" className="text-blue-600 hover:underline">[Link]</a></li>
