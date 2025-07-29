@@ -57,7 +57,8 @@ const PersonalPortfolio = () => {
         "Partner with customers to architect AI/ML infrastructure solutions",
         "Drive technical sales for high-performance computing systems", 
         "Develop custom AI infrastructure proposals for enterprise clients",
-        "Lead technical discussions with C-level executives and engineering teams"
+        "Lead technical discussions with C-level executives and engineering teams",
+        "Public speaking engagements at AI conferences"
       ]
     },
     {
@@ -82,7 +83,6 @@ const PersonalPortfolio = () => {
       responsibilities: [
         "Architected serverless LLM agent reducing call center interaction time from 12 to 4 minutes",
         "Built distributed system orchestrating 19 API endpoints with 216M row data lake",
-        "Deployed production AI systems at Fortune 500 companies",
         "Implemented comprehensive observability layer for monitoring agent decision paths"
       ]
     },
@@ -108,6 +108,7 @@ const PersonalPortfolio = () => {
       title: "Load Link: Real-time Logistics Brokerage & Freight-Forwarding Platform",
       description: "Distributed real-time logistics platform with native mobile app",
       technologies: "Python | Docker | Kubernetes | PostgreSQL | Redis | WebSockets | React/Redux | React Native",
+      link: "https://loadlinkco.com",
       details: [
         "Built distributed event streaming architecture handling real-time telematics data through WebSocket connections, with Samsara and Highway integrations",
         "Engineered bidirectional real-time data flow between mobile clients and server through WebSocket channels for instant updates",
@@ -120,6 +121,7 @@ const PersonalPortfolio = () => {
       title: "Local RAG from Scratch",
       description: "Entirely local RAG system using raw Python | Towards Data Science",
       technologies: "Python | Docker",
+      link: "https://towardsdatascience.com/local-rag-from-scratch-3afc6d3dea08/",
       details: [
         "Open-source, entirely local, and modular RAG system",
         "46 GitHub stars and over 50k reads"
@@ -129,6 +131,7 @@ const PersonalPortfolio = () => {
       title: "Coding A Neural Network From Scratch in NumPy",
       description: "Open-source ANN library & publication | Towards Data Science",
       technologies: "Python | LaTeX",
+      link: "https://towardsdatascience.com/coding-a-neural-network-from-scratch-in-numpy-31f04e4d605/",
       details: [
         "Open-source ANN library built in raw Python, using only NumPy. Very similar to keras (without GPU capabilities)",
         "5 GitHub stars, 5 Forks, and 20k reads"
@@ -138,6 +141,7 @@ const PersonalPortfolio = () => {
       title: "SuperDocs-AI",
       description: "Suite of modular, containerized microservices for developing document understanding pipelines",
       technologies: "Python | Redis | AWS | Docker",
+      githubNote: true,
       details: [
         "Designed and developed the containers and application to deploy intelligent document understanding processes",
         "Currently in production at two household name public companies (financial services & energy) and one large private company"
@@ -147,6 +151,7 @@ const PersonalPortfolio = () => {
       title: "Dojo-AI",
       description: "Automated ML application and marketplace that enables users to create, buy, and sell AI on the Ethereum blockchain",
       technologies: "Python | JavaScript | AWS | Docker | Redis | Solidity | PostgreSQL",
+      githubNote: true,
       details: [
         "Designed and deployed the end-to-end system from ML models, to blockchain integration, to front-end UI",
         "Listed AI models for sale on the marketplace"
@@ -317,7 +322,21 @@ const PersonalPortfolio = () => {
             <div className="space-y-8">
               {projects.map((project, index) => (
                 <div key={index} className="border-b border-gray-200 pb-8 last:border-b-0">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
+                    {project.link ? (
+                      <a 
+                        href={project.link} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-blue-600 flex items-center"
+                      >
+                        {project.title}
+                        <ExternalLink className="w-4 h-4 ml-2" />
+                      </a>
+                    ) : (
+                      project.title
+                    )}
+                  </h3>
                   <p className="text-gray-600 mb-3">{project.description}</p>
                   <p className="text-sm text-blue-600 font-medium mb-4">{project.technologies}</p>
                   
@@ -329,6 +348,12 @@ const PersonalPortfolio = () => {
                       </li>
                     ))}
                   </ul>
+                  
+                  {project.githubNote && (
+                    <p className="text-sm text-gray-600 mt-4 italic">
+                      Check GitHub linked at top and bottom of page for source code
+                    </p>
+                  )}
                 </div>
               ))}
             </div>
