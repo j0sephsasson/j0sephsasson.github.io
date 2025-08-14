@@ -54,8 +54,7 @@ const PersonalPortfolio = () => {
       location: "Chicago, IL",
       description: "Technical sales role working with enterprise customers to develop and sell AI and HPC infrastructure solutions.",
       responsibilities: [
-        "Partner with customers to architect AI/ML infrastructure solutions",
-        "Drive technical sales for high-performance computing systems", 
+        "Partner with customers to architect hybrid HPC and AI/ML infrastructure solutions",
         "Develop custom AI infrastructure proposals for enterprise clients",
         "Lead technical discussions with C-level executives and engineering teams",
         "Public speaking engagements at AI conferences"
@@ -69,7 +68,6 @@ const PersonalPortfolio = () => {
       description: "Led applied AI initiatives and managed cross-functional teams delivering production ML solutions.",
       responsibilities: [
         "Managed team of ML engineers and data scientists",
-        "Oversaw deployment of AI systems at Fortune 500 companies",
         "Drove strategic AI adoption across client organizations",
         "Led technical architecture decisions for enterprise AI solutions"
       ]
@@ -81,9 +79,8 @@ const PersonalPortfolio = () => {
       location: "Chicago, IL",
       description: "Led ML initiatives and architected production AI systems for Fortune 500 companies.",
       responsibilities: [
-        "Architected serverless LLM agent reducing call center interaction time from 12 to 4 minutes",
-        "Built distributed system orchestrating 19 API endpoints with 216M row data lake",
-        "Implemented comprehensive observability layer for monitoring agent decision paths"
+        "Collaborated with business stakeholders to decompose complex and abstract requirements into actionable technical specifications and development roadmaps",
+        "Developed comprehensive full-stack agentic application encompassing data architecture, cloud infrastructure, security frameworks, and the intelligent agentic layer, reducing call center interaction time from 12 to 4 minutes",
       ]
     },
     {
@@ -105,16 +102,17 @@ const PersonalPortfolio = () => {
 
   const projects = [
     {
-      title: "Load Link: Real-time Logistics Brokerage & Freight-Forwarding Platform",
-      description: "Distributed real-time logistics platform with native mobile app",
-      technologies: "Python | Docker | Kubernetes | PostgreSQL | Redis | WebSockets | React/Redux | React Native",
+      title: "Load Link: Enterprise-Scale Real-time Logistics Platform",
+      description: "Full-stack distributed logistics platform serving thousands of daily active users with real-time telematics, GPS tracking, messaging, and billing systems",
+      technologies: "Python | PostgreSQL | Redis | Docker | Kubernetes | WebSockets | React/Redux | React Native | Azure | Networking",
       link: "https://loadlinkco.com",
       details: [
-        "Built distributed event streaming architecture handling real-time telematics data through WebSocket connections, with Samsara and Highway integrations",
-        "Engineered bidirectional real-time data flow between mobile clients and server through WebSocket channels for instant updates",
-        "Implemented pub/sub system for real-time event propagation across microservices",
-        "Developed comprehensive API layer enabling third-party integrations and real-time data access",
-        "Lead team of engineers developing a React Native mobile app with background location services and offline synchronization"
+        "Architected complex relational PostgreSQL database schema with optimized indexing strategies, supporting multi-tenant logistics operations with real-time ACID compliance across distributed transactions",
+        "Designed and implemented enterprise-grade real-time data propagation system using Redis pub/sub, WebSocket broadcasting, and Redux state management for telematics, GPS coordinates, real-time messaging, push notifications, and dynamic billing updates",
+        "Engineered comprehensive networking infrastructure with Azure Virtual Networks, subnet segmentation, Network Security Groups (NSGs), and load balancers to ensure secure, scalable, and fault-tolerant communications",
+        "Led complete UI/UX design and development of responsive web application with modern React/Redux architecture, implementing intuitive workflows for freight brokers, carriers, and dispatchers with real-time dashboard analytics",
+        "Managed and mentored cross-platform mobile development team building React Native application for truck drivers, featuring background location services, offline synchronization, push notifications, and seamless data sync with distributed backend systems",
+        "Integrated third-party telematics APIs (Samsara, Highway) with event-driven microservices architecture, enabling real-time vehicle tracking, fuel monitoring, and predictive maintenance alerts across the logistics network"
       ]
     },
     {
