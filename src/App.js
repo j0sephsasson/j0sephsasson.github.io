@@ -117,13 +117,13 @@ const PersonalPortfolio = () => {
     },
     {
       title: "Architecting GPUaaS for Enterprise AI On-Prem",
-      description: "Self-service GPU platform on Single Node OpenShift — calendar-based GPU booking, Python reconciler, isolated K8s namespaces with VS Code/ML workspace, MIG + time-slicing | Towards Data Science",
+      description: "Self-service GPU platform on Single Node OpenShift Cluster — calendar based GPU booking, Kubernetes controller, isolated K8s namespaces with the whole AI/ML stack inside code-server | Towards Data Science",
       technologies: "Kubernetes | OpenShift | Python | PostgreSQL | NVIDIA GPU Operator | Cisco UCS",
       link: "https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/",
       details: [
-        "Users book GPU time through a calendar UI; a Python reconciler provisions isolated namespaces with full VS Code/ML workspace, pre-cached inference engines, and hard resource quotas, then tears everything down when the session ends",
+        "Users book GPU time through a calendar UI; a Python-based Kubernetes controller provisions isolated namespaces with full VS Code/ML workspace, pre-cached inference engines, and hard resource quotas, then tears everything down when the session ends",
         "Mixed MIG + time-slicing strategy so multiple workloads share hardware efficiently within a session",
-        "Core economic focus: utilization is the only lever that drives down per-token cost on fixed infrastructure"
+        "Core economic ('tokenomics') focus: utilization is the main lever that drives down per-token cost on fixed infrastructure"
       ]
     },
     {
@@ -230,7 +230,7 @@ const PersonalPortfolio = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold text-gray-900 mb-4">Joe Sasson</h1>
-              <p className="text-xl text-gray-600 mb-2">Senior AI Solutions Engineer at Cisco</p>
+              <p className="text-xl text-gray-600 mb-2">AI Solutions Engineer at Cisco</p>
               <p className="text-lg text-gray-500 mb-6">Technical Sales | AI & HPC Infrastructure</p>
               
               <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-gray-600 mb-8">
