@@ -49,7 +49,7 @@ const PersonalPortfolio = () => {
   const experiences = [
     {
       company: "Cisco",
-      role: "Senior AI Solutions Engineer",
+      role: "AI Solutions Engineer",
       period: "April 2024 - Present",
       location: "Chicago, IL",
       description: "Technical sales role working with enterprise customers to develop and sell AI and HPC infrastructure solutions.",
@@ -113,6 +113,17 @@ const PersonalPortfolio = () => {
         "Led complete UI/UX design and development of responsive web application with modern React/Redux architecture, implementing intuitive workflows for freight brokers, carriers, and dispatchers with real-time dashboard analytics",
         "Managed and mentored cross-platform mobile development team building React Native application for truck drivers, featuring background location services, offline synchronization, push notifications, and seamless data sync with distributed backend systems",
         "Integrated third-party telematics APIs (Samsara, Highway) with event-driven microservices architecture, enabling real-time vehicle tracking, fuel monitoring, and predictive maintenance alerts across the logistics network"
+      ]
+    },
+    {
+      title: "Architecting GPUaaS for Enterprise AI On-Prem",
+      description: "Self-service GPU platform on Single Node OpenShift — calendar-based GPU booking, Python reconciler, isolated K8s namespaces with VS Code/ML workspace, MIG + time-slicing | Towards Data Science",
+      technologies: "Kubernetes | OpenShift | Python | PostgreSQL | NVIDIA GPU Operator | Cisco UCS",
+      link: "https://towardsdatascience.com/architecting-gpuaas-for-enterprise-ai-on-prem/",
+      details: [
+        "Users book GPU time through a calendar UI; a Python reconciler provisions isolated namespaces with full VS Code/ML workspace, pre-cached inference engines, and hard resource quotas, then tears everything down when the session ends",
+        "Mixed MIG + time-slicing strategy so multiple workloads share hardware efficiently within a session",
+        "Core economic focus: utilization is the only lever that drives down per-token cost on fixed infrastructure"
       ]
     },
     {
