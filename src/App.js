@@ -50,7 +50,7 @@ const PersonalPortfolio = () => {
     {
       company: "Cisco",
       role: "AI Solutions Engineer",
-      period: "April 2024 - Present",
+      period: "April 2025 - Present",
       location: "Chicago, IL",
       description: "Technical sales role working with enterprise customers to develop and sell AI and HPC infrastructure solutions.",
       responsibilities: [
@@ -63,7 +63,7 @@ const PersonalPortfolio = () => {
     {
       company: "Ashling Partners",
       role: "Applied AI Manager",
-      period: "January 2024 - April 2024", 
+      period: "January 2025 - April 2025", 
       location: "Chicago, IL",
       description: "Led applied AI initiatives and managed cross-functional teams delivering production ML solutions.",
       responsibilities: [
@@ -75,7 +75,7 @@ const PersonalPortfolio = () => {
     {
       company: "Ashling Partners",
       role: "Senior Machine Learning Consultant",
-      period: "February 2023 - January 2024",
+      period: "February 2023 - January 2025",
       location: "Chicago, IL",
       description: "Led ML initiatives and architected production AI systems for Fortune 500 companies.",
       responsibilities: [
