@@ -52,12 +52,13 @@ const PersonalPortfolio = () => {
       role: "AI Solutions Engineer",
       period: "April 2025 - Present",
       location: "Chicago, IL",
-      description: "Technical sales role working with enterprise customers to develop and sell AI and HPC infrastructure solutions.",
+      description: "Cisco Distinguished Speaker. Principal technical lead partnering with highly sophisticated, heavily regulated enterprise customers to architect hybrid HPC and AI training/inference infrastructure at scale.",
       responsibilities: [
-        "Partner with customers to architect hybrid HPC and AI/ML infrastructure solutions",
-        "Develop custom AI infrastructure proposals for enterprise clients",
-        "Lead technical discussions with C-level executives and engineering teams",
-        "Public speaking engagements at AI conferences"
+        "Design cutting-edge hybrid HPC/AI clusters built on 800G Nexus backend fabrics, engineered for the high-throughput, low-latency, lossless characteristics required by large-scale distributed training and inference workloads",
+        "Drive backend network architecture decisions (Ethernet vs InfiniBand), including RoCEv2, PFC/ECN, and congestion control tuning, rail-optimized GPU topologies, collective communication patterns, and non-blocking fat-tree designs sized to customer model, parallelism strategy, and job profile",
+        "Architect full-stack reference designs spanning GPU compute, storage fabric, and network — including NCCL/collective tuning, MIG partitioning, scheduler integration (Slurm/Kubernetes), and observability — with an obsessive focus on job completion time and $/token economics",
+        "Partner with C-level executives and platform engineering teams at large enterprise customers and heavily regulated customers to translate AI strategy into defensible, auditable infrastructure roadmaps",
+        "Cisco Distinguished Speaker delivering technical sessions at AI and infrastructure conferences on hybrid AI/HPC architecture, GPU fabric design, and enterprise AI economics"
       ]
     },
     {
@@ -75,27 +76,30 @@ const PersonalPortfolio = () => {
     {
       company: "Ashling Partners",
       role: "Senior Machine Learning Consultant",
-      period: "February 2023 - January 2025",
+      period: "February 2024 - January 2025",
       location: "Chicago, IL",
-      description: "Led ML initiatives and architected production AI systems for Fortune 500 companies.",
+      description: "Architected production agentic AI systems for Fortune 500 companies, owning the full stack from data architecture and cloud infrastructure to the intelligent agent layer.",
       responsibilities: [
-        "Collaborated with business stakeholders to decompose complex and abstract requirements into actionable technical specifications and development roadmaps",
-        "Developed comprehensive full-stack agentic application encompassing data architecture, cloud infrastructure, security frameworks, and the intelligent agentic layer, reducing call center interaction time from 12 to 4 minutes",
+        "Call Center LLM Agent (in production at a Fortune 500 call center): Architected a distributed, scalable system where an LLM agent dynamically orchestrates 19 different API endpoints via function calling, each interacting with specialized views of a 216M row data lake",
+        "Implemented custom context-aware routing logic for dynamic API selection, reducing average call center interaction time from 12 minutes to 4 minutes",
+        "Built a comprehensive observability layer for monitoring agent decision paths, tool-call traces, and per-API latency and performance",
+        "Partnered with business stakeholders to decompose complex, abstract requirements into actionable technical specifications, data contracts, and phased delivery roadmaps"
       ]
     },
     {
       company: "Ashling Partners",
       role: "Machine Learning Consultant",
-      period: "June 2021 - February 2023",
+      period: "June 2021 - February 2024",
       location: "Chicago, IL",
-      description: "Full-stack ML development from conception to production deployment.",
+      description: "Owned full-lifecycle ML delivery — from pre-sales and solution design through production deployment — across classification, retrieval, extraction, and forecasting systems.",
       responsibilities: [
-        "Led resume classification system processing 20,000+ resumes monthly",
-        "Built AI inbox handling 250,000+ RFPs annually, reducing processing time by 90%",
-        "Designed intelligent search engine for 3.5M SKUs using Azure Cognitive Search",
-        "Automated M&A contract data extraction from 500+ page documents",
-        "Developed real-estate forecasting app analyzing 500,000+ deals",
-        "Designed and conducted AI training sessions for 15 analysts and engineers"
+        "Resume Classifier: Led full lifecycle from pre-sales to deployment of a classification system processing 20,000+ resumes per month, using open-source embedding models, PCA, and DBSCAN to cluster document types and significantly improve recruiter efficiency",
+        "AI Inbox: Designed and implemented an AI-powered inbox handling 250,000+ RFPs annually using serverless functions and an ensemble of classifiers and extraction models to generate structured deal sheets and reduce manual processing time by 90%",
+        "Search Engine: Designed and deployed an intelligent search engine over 3.5M SKUs using Azure Cognitive Search, Azure Functions, Redis, and Docker, fine-tuning an embeddings model to significantly outperform base models on retrieval accuracy",
+        "M&A Contract Pipeline: Led automation of data extraction from 500+ page M&A contracts on Azure Functions and Docker, chaining an OCR API for scanned documents with a RAG API for structured extraction to streamline due diligence",
+        "Real-Estate Forecasting App: Designed and built a full-stack forecasting and clustering application (KNN for clustering, LSTM for forecasting) used by commercial real-estate brokers to analyze 500,000+ deals",
+        "Document Classification Algorithm: Led development of an open-source transformer-based document classification system processing 80,000+ documents, combining an OCR API with the classification model into a unified pipeline",
+        "AI Training Course: Designed and delivered live training sessions for 15 analysts and engineers, covering model selection, training pipelines, and deployment best practices"
       ]
     }
   ];
