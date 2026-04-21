@@ -331,7 +331,7 @@ const PersonalPortfolio = () => {
         {/* Projects Section */}
         <section id="projects" className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-12 text-center">Projects & Publications</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-12 text-center">Selected Projects & Publications</h2>
             
             <div className="space-y-8">
               {projects.map((project, index) => (
