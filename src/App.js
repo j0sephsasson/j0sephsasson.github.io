@@ -52,13 +52,14 @@ const PersonalPortfolio = () => {
       role: "AI Solutions Engineer",
       period: "April 2025 - Present",
       location: "Chicago, IL",
-      description: "Cisco Distinguished Speaker. Principal technical lead partnering with highly sophisticated, heavily regulated enterprise customers to architect hybrid HPC and AI training/inference infrastructure at scale.",
+      description: "Technical specialist partnering with sophisticated and heavily regulated enterprise customers to architect secure hybrid HPC and AI infrastructure at scale.",
       responsibilities: [
         "Design cutting-edge hybrid HPC/AI clusters built on 800G Nexus backend fabrics, engineered for the high-throughput, low-latency, lossless characteristics required by large-scale distributed training and inference workloads",
-        "Drive backend network architecture decisions (Ethernet vs InfiniBand), including RoCEv2, PFC/ECN, and congestion control tuning, rail-optimized GPU topologies, collective communication patterns, and non-blocking fat-tree designs sized to customer model, parallelism strategy, and job profile",
-        "Architect full-stack reference designs spanning GPU compute, storage fabric, and network — including NCCL/collective tuning, MIG partitioning, scheduler integration (Slurm/Kubernetes), and observability — with an obsessive focus on job completion time and $/token economics",
-        "Partner with C-level executives and platform engineering teams at large enterprise customers and heavily regulated customers to translate AI strategy into defensible, auditable infrastructure roadmaps",
-        "Cisco Distinguished Speaker delivering technical sessions at AI and infrastructure conferences on hybrid AI/HPC architecture, GPU fabric design, and enterprise AI economics"
+        "Lead customer-facing technical strategy for Ethernet-based AI backend fabrics, positioning Cisco's lossless Ethernet stack (RoCEv2, PFC/ECN, advanced congestion control) against InfiniBand on performance, operability, and long-term TCO for large-scale GPU clusters",
+        "Design rail-optimized GPU topologies, non-blocking fat-tree fabrics, and collective communication patterns sized to each customer's model architecture, parallelism strategy, and job profile",
+        "Architect full-stack reference designs spanning GPU compute, storage fabric, and network — including NCCL/collective tuning, MIG partitioning, scheduler integration (Slurm/Kubernetes), and observability",
+        "Partner with C-level executives and platform engineering teams to translate AI strategy into defensible, auditable infrastructure roadmaps",
+        "Cisco Distinguished Speaker — deliver technical sessions at AI and infrastructure conferences on hybrid AI/HPC architecture, GPU fabric design, and enterprise AI economics"
       ]
     },
     {
@@ -107,7 +108,7 @@ const PersonalPortfolio = () => {
   const projects = [
     {
       title: "Load Link: Enterprise-Scale Real-time Logistics Platform",
-      description: "Full-stack distributed logistics platform serving thousands of daily active users with real-time telematics, GPS tracking, messaging, and billing systems",
+      description: "Full-stack distributed logistics platform serving users globally with real-time telematics, GPS tracking, messaging, and billing systems",
       technologies: "Python | PostgreSQL | Redis | Docker | Kubernetes | WebSockets | React/Redux | React Native | Azure | Networking",
       link: "https://loadlinkco.com",
       details: [
